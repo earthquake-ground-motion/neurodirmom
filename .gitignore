@@ -172,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Initialisation files (except the example)
+*.ini
+!example_config.ini
+
+# Any results
+results/*
+!results/.gitkeep
+
+# Data files
+data/*
+!data/raw
+data/raw/*
+!data/raw/.gitkeep
